@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/banner";
 import Header from "../components/Header";
+import ProjectWrapper from "../components/ProjectWrapper";
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 			<main className="h-full">
 				<Header />
 				<Banner />
+				<ProjectWrapper />
 			</main>
 		</div>
 	);
